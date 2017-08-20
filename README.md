@@ -1,7 +1,8 @@
 
 # A simple moodle analyser
 source code for my thesis:
-《基于moodle日志的教育数据可视化技术》
+## 《基于moodle日志的教育数据可视化技术》(Profiling Online Courses Using Moodle Logs)
+when the thesis first wrote in 2016, I use moodle 2.6's web log as my data for visualization, but the source code have been rewritten to using database connection.
 
 ## way to use:
 
