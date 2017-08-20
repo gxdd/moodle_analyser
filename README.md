@@ -1,5 +1,5 @@
 
-# way to use
+# A simple moodle analyser, way to use:
 
 ## requirements.txt 
 
