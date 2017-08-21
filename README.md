@@ -10,6 +10,10 @@ when the thesis first wrote in 2016, I use moodle 2.6's web log as my data for v
 
 for python virtualenv migration
 
+### logging.conf
+
+required by python's logging module
+
 ### 1-10 python script 
 
 are demos for data visualization, starting point
