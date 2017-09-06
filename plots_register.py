@@ -423,7 +423,7 @@ def prep_8(data):
     metric_4 = data['logs'][data['logs']['eventname'].isin(condition_m4)]['visit'].sum()
 
     #-------------    
-    #metric_5: 论坛发帖回复率=论坛回帖数/论坛主题数v
+    #metric_5: 论坛发帖回复率=论坛回帖数/论坛主题数
     #论坛回帖数:
     forum_add_post = data['logs'][data['logs']['eventname']==condition_m4[1]]['visit'].sum()
     #论坛主题数:
