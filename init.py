@@ -332,7 +332,7 @@ def prep_basic_stats(courseid):
     ignored_events = ['\\core\\event\\enrol_instance_created', '\\core\\event\\enrol_instance_deleted', '\\core\\event\\user_enrolment_created', '\\core\\event\\user_enrolment_deleted', '\\core\\event\\role_assigned']
     
     df['visit'] = np.where(df['eventname'].isin(ignored_events), 0, 1)
-    
+    time_table['visit'] = np.where(df['visit'] == 1, 1, 0)
     start_date = df['time'].min().date()
     #start_day
     end_date = df['time'].max().date()
